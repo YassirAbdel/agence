@@ -1,0 +1,7 @@
+oc_agency:
+    resource: "@OCAgencyBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
